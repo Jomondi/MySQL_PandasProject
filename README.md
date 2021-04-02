@@ -15,12 +15,16 @@ User must have below installed so as to successfully run this program
  
  Run below methods:
   create_database()
-      Run thist method to create the MySQL database and print the results.
+      Run this method to create the MySQL database and print the results.
       
   Connect to the engine using SQLAlchemy
   
   authentication_data()
       Run this method to add the data to the authentication table and print the results.
+      ![Auth head & tail](https://github.com/Jomondi/MySQL_PandasProject/blob/main/Authentication.png)
+      ![Auth table](https://github.com/Jomondi/MySQL_PandasProject/blob/main/Auth_Table.png)
       
   employee_data()
       Run this method to add the data to the authentication table and print the results.
+      ![Empl head & tail](https://github.com/Jomondi/MySQL_PandasProject/blob/main/Employee%20Records.png)
+      ![Empl table](https://github.com/Jomondi/MySQL_PandasProject/blob/main/Employee_Table.png)
