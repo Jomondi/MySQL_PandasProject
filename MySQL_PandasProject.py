@@ -4,7 +4,7 @@ import mysql.connector
 
 
 def create_database():
-    database = mysql.connector.connect(host='localhost', user='root', password='FidelliaAdhiambo')
+    database = mysql.connector.connect(host='localhost', user='root', password='')
     cursor = database.cursor()
     cursor.execute("CREATE DATABASE IF NOT EXISTS Employees")
     print('Database successfully created!')
@@ -15,7 +15,7 @@ create_database()
 
 
 # Connect to MySQL database engine
-engine = create_engine("mysql+pymysql://root:FidelliaAdhiambo@localhost/Employees")
+engine = create_engine("mysql+pymysql://root:<password>@localhost/Employees")
 print(f'Connected to database successfully!\n')
 
 
