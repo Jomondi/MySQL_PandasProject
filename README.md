@@ -30,3 +30,6 @@ User must have below installed so as to successfully run this program
       Run this method to add the data to the authentication table and print the results.
       ![Empl head & tail](https://github.com/Jomondi/MySQL_PandasProject/blob/main/Employee%20Records.png)
       ![Empl table](https://github.com/Jomondi/MySQL_PandasProject/blob/main/Employee_Table.png)
+
+
+Disclaimer - The datasets are generated through random logic in VBA. These are not real human resource data and should not be used for any other purpose other than testing.
